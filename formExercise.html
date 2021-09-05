@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Form Exercise">
+    <title>Form Exercise</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Customer Experience survery</legend>
+        <label for="StoreName">Store name</label>
+        <select name="StoreName" id="Store">
+            <option value="3109">3109</option>
+            <option value="2421">2421</option>
+            <option value="5357">5357</option>
+        </select>
+        
+        <fieldset>
+            <legend>When you visted:</legend>
+            <div>
+                <label for="Date">Date</label>
+                <input type="Date">
+            </div>
+            <label for="Time">Time</label>
+            <input type="time">
+        </fieldset>
+        <div>
+            <label for="Name">Full Name</label>
+            <input type="text">
+        </div>
+        <label for="Email">Email</label>
+        <input type="email">
+        <fieldset>
+            <legend>Gender</legend>
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" id="male" value="male">
+            </div>
+            <label for="Female">Female</label>
+            <input type="radio" id="Female"
+            value="Female">
+        </fieldset>
+        <div>
+            <label for="Experience">Tell us about your experience</label>
+            <br>
+            <textarea name="Experience" id="Experience" cols="20" rows="2"></textarea>
+        </div>
+        <div>
+            <label for="TimesVisted">Times visted in the last month:</label>
+            <br>
+            <input type="number" id="TimesVisted" name="TimesVisted">
+        </div>
+        <div>
+            <input type="checkbox" id="CheckBox" name="CheckBox">
+            <label for="CheckBox">Please check this if you would be willing to be contaccted about your experience</label>
+        </div>
+        <label for="Password">Password</label>
+        <input type="text">
+        <br>
+        <input type="submit">
+    </fieldset>
+
+
+
+</body>
+</html>
